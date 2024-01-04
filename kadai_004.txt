@@ -1,0 +1,46 @@
+Last login: Wed Jan  3 18:27:36 on ttys003
+/Users/ema/.zshrc:17: no such file or directory: /opt/homebrew/bin/brew
+ema@MacBook-Pro ~ % cd /Users/ema/侍テラコヤ/Git/git_challenge
+ema@MacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/ema/侍テラコヤ/Git/git_challenge/.git/
+ema@MacBook-Pro git_challenge % echo "Hell,world!" >> hello_world.txt
+dquote>                                           
+dquote> git init                                  
+ema@MacBook-Pro git_challenge % echo "Hell,world" >> hello_world.txt
+
+ema@MacBook-Pro git_challenge % echo "Hell,world!" >> hello_world.txt
+
+dquote> 
+ema@MacBook-Pro git_challenge % 
+ema@MacBook-Pro git_challenge % echo "Hell,world！" >> hello_world.txt
+
+ema@MacBook-Pro git_challenge % echo "Hell,world！" >> hello_world.txt
+
+ema@MacBook-Pro git_challenge % git add hello_world.txt
+ema@MacBook-Pro git_challenge % git commit -m "hello_world.txtを追加
+dquote> 
+ema@MacBook-Pro git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) d8d05e4] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+ema@MacBook-Pro git_challenge % ecno "こんにちは、世界！" >> hello_world.txt
+zsh: command not found: ecno
+ema@MacBook-Pro git_challenge % ecno "こんにちは、世界！" >> hello_world.txt
+zsh: command not found: ecno
+ema@MacBook-Pro git_challenge % echo "こんにちは、世界！" >> hello_world.txt
+ema@MacBook-Pro git_challenge % git add hello_world.txt              
+ema@MacBook-Pro git_challenge % git commit -m "日本語訳を追記"    
+[main 626363c] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+ema@MacBook-Pro git_challenge % git log
+commit 626363c9af061b7639defc371ed70a9fef288eba (HEAD -> main)
+Author: 03-nano <ankerema10@icloud.com>
+Date:   Wed Jan 3 19:14:38 2024 +0900
+
+    日本語訳を追記
+
+commit d8d05e4df286bf8103c36756f75ed0899412c4a6
+Author: 03-nano <ankerema10@icloud.com>
+Date:   Wed Jan 3 19:04:13 2024 +0900
+
+    hello_world.txtを追加
